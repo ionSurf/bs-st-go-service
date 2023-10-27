@@ -1,0 +1,8 @@
+service_name: ${{values.component_id | dump}}
+service_description: ${{values.description | dump}}
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
